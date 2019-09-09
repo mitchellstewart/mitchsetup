@@ -9,4 +9,10 @@ function cdps { set-location "c:\devop\MitPowershell\Quickscript" }
 function cdmc { set-location "c:\devop\MitPowershell\Quickscript\MSSComputer" }
 function cdpn { set-location "c:\devop\MitPowershell\Quickscript\NewComputer" }
 function cdmod { set-location "c:\devop\MitPowershell\Quickscript\MSPSMOD" }
-function cd365 { set-location "c:\devop\MitPowershell\365" }
+function cd365 { set-location "c:\devop\MitPowershell\Quickscript\365" }
+function cdg { set-location "c:\devop\MitPowershell\Quickscript\graphapi" }
+function cds { set-location "c:\devop\MitPowershell\Quickscript\sync" }
+function cdr { 
+	set-location "c:\devop\MitPowershell\Quickscript\sync"
+	.\repos_gitpull.ps1
+}
