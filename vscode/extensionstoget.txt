@@ -1,0 +1,8 @@
+Bracket Pair Colorizer
+Sea Green Theme
+Show Function
+vscode-icons
+Remote - WSL
+XML Tools
+#Azure Repos
+Prettify Json

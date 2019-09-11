@@ -16,3 +16,4 @@ function cdr {
 	set-location "c:\devop\MitPowershell\Quickscript\sync"
 	.\repos_gitpull.ps1
 }
+function cdpsref { set-location "c:\devop\ps" }
