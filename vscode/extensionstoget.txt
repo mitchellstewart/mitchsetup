@@ -1,11 +1,13 @@
-Bracket Pair Colorizer
-Sea Green Theme
-Show Function
-vscode-icons
-Remote - WSL
-XML Tools
-#Azure Repos
-Prettify Json
-
 Better Comments
+Bracket Pair Colorizer
+Powershell
+Prettify Json
+Remote - WSL
+Sea Green Theme
+Show Functions
+snippet-creator
+vscode-icons
+vscode-spoity
 Wakatime
+xml tools
+
