@@ -7,7 +7,15 @@ Sea Green Theme
 Show Functions
 snippet-creator
 vscode-icons
-vscode-spoity
 Wakatime
 xml tools
+c\c++
+Arduino
 
+External COntrol
+==================
+vscode-spoity
+
+Testing
+==========
+Peacock
