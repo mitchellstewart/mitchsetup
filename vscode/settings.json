@@ -17,5 +17,8 @@
             "name": "mitchblue",
             "value": "#2288aa"
         }
-    ]
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
 }
