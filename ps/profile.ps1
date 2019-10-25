@@ -19,3 +19,4 @@ function cdr {
 }
 function cdpsref { set-location "c:\devop\ps" }
 function shat{ ssh mitch@192.168.4.6 }
+function deepthought{ ssh mitch@192.168.4.213 }
