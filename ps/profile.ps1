@@ -20,3 +20,9 @@ function cdr {
 function cdpsref { set-location "c:\devop\ps" }
 function shat{ ssh mitch@192.168.4.6 }
 function deepthought{ ssh mitch@192.168.4.213 }
+function rpir3{ ssh mitch@192.168.4.209 }
+function rpir3_pi{ ssh pi@192.168.4.209 }
+function rpir2{ ssh mitch@192.168.4.210 }
+
+
+function juprem{ ssh -N -f -L localhost:8888:localhost:8889 mitch@192.168.4.213 }
