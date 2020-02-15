@@ -1,4 +1,7 @@
-cd "c:\devop\MitPowershell\QuickScript"
+$psprofileVersion = "1.2"
+
+Set-Location -Path "c:\devop\MitPowershell\QuickScript"
+
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
@@ -18,11 +21,33 @@ function cdr {
 	.\repos_gitpull.ps1
 }
 function cdpsref { set-location "c:\devop\ps" }
+
+# SSH Items
 function shat{ ssh mitch@192.168.4.6 }
 function deepthought{ ssh mitch@192.168.4.213 }
 function rpir3{ ssh mitch@192.168.4.209 }
 function rpir3_pi{ ssh pi@192.168.4.209 }
 function rpir2{ ssh mitch@192.168.4.210 }
 
+function cdo365 { set-location "c:\devop\OM365\365" }
 
-function juprem{ ssh -N -f -L localhost:8888:localhost:8889 mitch@192.168.4.213 }
+$t = @"
+  __  __ ___ _____ ___ _  _
+ |  \/  |_ _|_   _/ __| || |
+ | |\/| || |  | || (__| __ |
+ |_|  |_|___| |_| \___|_||_|
+                                                   
+"@
+ 
+for ($i=0;$i -lt $t.length;$i++) {
+if ($i % 2) {
+ $c = "Green"
+}
+else {
+   $c = "Red"
+}
+write-host $t[$i] -NoNewline -ForegroundColor $c
+}
+Write-Host " "
+Write-Host "   Version $psprofileVersion" -Foreground "Green"
+Write-Host " "
